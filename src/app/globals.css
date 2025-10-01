@@ -206,7 +206,6 @@ textarea::placeholder {
   color: rgba(255, 255, 255, 0.4) !important;
 }
 
-/* Chatbot specific styles */
 .bg-gray-900,
 .dark\:bg-gray-900 {
   background-color: #111827 !important;
@@ -255,15 +254,45 @@ textarea::placeholder {
   border-color: #1e3a8a !important;
 }
 
-/* Ensure chart backgrounds are consistent across devices */
 .rounded-lg.shadow-md {
-  background-color: var(--background);
-}
-
-[data-theme="light"] .rounded-lg.shadow-md {
-  background-color: #ffffff;
+  background-color: #ffffff !important;
 }
 
 [data-theme="dark"] .rounded-lg.shadow-md {
-  background-color: #1f2937;
+  background-color: #1f2937 !important;
+}
+
+body {
+  background-color: #ffffff !important;
+}
+
+[data-theme="dark"] body {
+  background-color: #0a0a0a !important;
+}
+
+.min-h-screen {
+  background-color: #f9fafb !important;
+}
+
+[data-theme="dark"] .min-h-screen {
+  background-color: #111827 !important;
+}
+
+@supports (-webkit-appearance: none) {
+  .rounded-lg.shadow-md {
+    background-color: #ffffff !important;
+    -webkit-print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
+
+  [data-theme="dark"] .rounded-lg.shadow-md {
+    background-color: #1f2937 !important;
+    -webkit-print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
+
+  body {
+    -webkit-print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
 }

@@ -16,6 +16,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Scopsis",
   description: "AI Software and Analytics",
+  other: {
+    'color-scheme': 'light dark',
+  },
 };
 
 export default function RootLayout({
