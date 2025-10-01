@@ -103,7 +103,7 @@ export function TaskForm({ onAdd }: TaskFormProps) {
                         <button
                             type="submit"
                             disabled={isAdding || !title.trim()}
-                            className="rounded-lg bg-foreground text-background px-8 py-2.5 font-semibold hover:scale-[1.02] active:scale-[0.98] transition-all disabled:opacity-50 disabled:pointer-events-none shadow-md hover:shadow-lg"
+                            className="rounded-lg  px-8 py-2.5 font-semibold hover:scale-[1.02] active:scale-[0.98] transition-all disabled:opacity-50 disabled:pointer-events-none shadow-md hover:shadow-lg"
                             aria-label="Add task"
                         >
                             {isAdding ? "Adding..." : "Add Task"}
