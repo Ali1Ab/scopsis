@@ -1,0 +1,93 @@
+{
+  "tasks": [
+    {
+      "id": "sample-1",
+      "title": "Complete project proposal",
+      "description": "Write and submit the Q4 project proposal for the new marketing campaign. Include budget estimates and timeline.",
+      "completed": false,
+      "dueDate": "2025-10-15",
+      "createdAt": "2025-10-01T08:00:00.000Z",
+      "tags": ["Work", "Urgent"]
+    },
+    {
+      "id": "sample-2",
+      "title": "Schedule annual health checkup",
+      "description": "Call the clinic to schedule yearly physical examination and dental cleaning.",
+      "completed": false,
+      "dueDate": "2025-10-10",
+      "createdAt": "2025-10-01T09:15:00.000Z",
+      "tags": ["Health", "Personal"]
+    },
+    {
+      "id": "sample-3",
+      "title": "Review investment portfolio",
+      "description": "Meet with financial advisor to review current investments and discuss retirement planning options.",
+      "completed": false,
+      "dueDate": "2025-10-20",
+      "createdAt": "2025-10-01T10:30:00.000Z",
+      "tags": ["Finance", "Personal"]
+    },
+    {
+      "id": "sample-4",
+      "title": "Buy groceries",
+      "description": "Get items for the week: milk, eggs, bread, vegetables, fruits, chicken, and pasta.",
+      "completed": false,
+      "dueDate": "2025-10-05",
+      "createdAt": "2025-10-01T11:00:00.000Z",
+      "tags": ["Shopping", "Personal"]
+    },
+    {
+      "id": "sample-5",
+      "title": "Learn React hooks",
+      "description": "Complete the online course on advanced React hooks including useReducer, useContext, and custom hooks.",
+      "completed": false,
+      "dueDate": "2025-10-30",
+      "createdAt": "2025-10-01T12:00:00.000Z",
+      "tags": ["Education", "Personal"]
+    },
+    {
+      "id": "sample-6",
+      "title": "Fix leaking faucet",
+      "description": "Call plumber or watch DIY tutorial and fix the kitchen sink faucet that's been dripping.",
+      "completed": false,
+      "dueDate": "2025-10-08",
+      "createdAt": "2025-10-01T13:30:00.000Z",
+      "tags": ["Home"]
+    },
+    {
+      "id": "sample-7",
+      "title": "Book flight tickets",
+      "description": "Book round-trip tickets to San Francisco for the tech conference. Check for early bird discounts.",
+      "completed": false,
+      "dueDate": "2025-10-12",
+      "createdAt": "2025-10-01T14:00:00.000Z",
+      "tags": ["Travel", "Work"]
+    },
+    {
+      "id": "sample-8",
+      "title": "Team meeting preparation",
+      "description": "Prepare slides and data analysis for Monday's team meeting. Review last quarter's performance metrics.",
+      "completed": false,
+      "dueDate": "2025-10-07",
+      "createdAt": "2025-10-01T15:00:00.000Z",
+      "tags": ["Work", "Urgent"]
+    },
+    {
+      "id": "sample-9",
+      "title": "Update resume",
+      "description": "Add recent projects and achievements to resume. Update LinkedIn profile with new skills.",
+      "completed": false,
+      "createdAt": "2025-10-01T16:00:00.000Z",
+      "tags": ["Work", "Low Priority"]
+    },
+    {
+      "id": "sample-10",
+      "title": "Organize home office",
+      "description": "Declutter desk, organize cables, and set up better lighting for video calls.",
+      "completed": false,
+      "dueDate": "2025-10-06",
+      "createdAt": "2025-10-01T17:00:00.000Z",
+      "tags": ["Home", "Personal"]
+    }
+  ]
+}
