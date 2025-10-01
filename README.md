@@ -26,7 +26,7 @@ Open `http://localhost:3000` in your browser.
 
 - `src/types/task.ts`: shared `Task` types
 - `src/hooks/`: `useLocalStorage`, `useTasks`, `useTheme`
-- `src/components/`: `TaskForm`, `TaskItem`, `TaskList`, `FilterBar`
+- `src/components/`: `TaskForm`, `TaskItem`, `TaskList`, `FilterBar`, `Home` , `TaskAnalytics`
 - `src/app/page.tsx`: wires everything together
 
 ### Testing
