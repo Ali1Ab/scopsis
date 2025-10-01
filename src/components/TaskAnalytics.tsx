@@ -131,7 +131,7 @@ export default function TaskAnalytics({ tasks }: TaskAnalyticsProps) {
             >
                 <h2
                     className="text-xl font-bold mb-4"
-                    style={{ color: chartStyles.text }}
+
                 >
                     Task Status Overview
                 </h2>
@@ -196,7 +196,7 @@ export default function TaskAnalytics({ tasks }: TaskAnalyticsProps) {
             >
                 <h2
                     className="text-xl font-bold mb-4"
-                    style={{ color: chartStyles.text }}
+
                 >
                     Tags Distribution
                 </h2>
@@ -254,7 +254,7 @@ export default function TaskAnalytics({ tasks }: TaskAnalyticsProps) {
                                                 CHART_COLORS[index % CHART_COLORS.length],
                                         }}
                                     ></div>
-                                    <span style={{ color: chartStyles.text }}>
+                                    <span >
                                         {item.name}: <strong>{item.value}</strong> (
                                         {item.percentage}%)
                                     </span>
